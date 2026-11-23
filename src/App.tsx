@@ -39,12 +39,10 @@ import AdminUserDetailPage from '@/features/admin/pages/AdminUserDetailPage'
 import AdminOffersPage from '@/features/admin/pages/AdminOffersPage'
 import AdminOrdersPage from '@/features/admin/pages/AdminOrdersPage'
 import AdminFeedbackPage from '@/features/admin/pages/AdminFeedbackPage'
-import { DemoBanner } from '@/components/shared/DemoBanner'
 
 function AppShell() {
   return (
     <>
-      <DemoBanner />
       <Routes>
         <Route path="customer" element={<CustomerLayout />}>
           <Route index element={<HomePage />} />
